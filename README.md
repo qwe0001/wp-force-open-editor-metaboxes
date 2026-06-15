@@ -96,6 +96,15 @@ wp-content/
 
 `mu-plugins` 配下のサブディレクトリ内に PHP ファイルを置いただけでは、WordPress が自動読み込みしないためです。
 
+## アンインストール方法
+
+`wp-content/mu-plugins/` 直下にある、
+`force-open-editor-metaboxes/` ディレクトリと、
+`force-open-editor-metaboxes.php` を削除してください。
+
+`wp-content/mu-plugins/` 自体は、
+本プラグイン以外に使用しているプラグインがなければ、削除しても構いません。
+
 ---
 
 ## 仕様
